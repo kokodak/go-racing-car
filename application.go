@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/poi1649/go-racing-car/racingcar"
+	_ "github.com/poi1649/go-racing-car/racingcar"
 )
 
 func main() {
-	fmt.Print(racingcar.Hello())
+	a := 20
+	ptrA := &a
+	fmt.Println(ptrA)
 }
